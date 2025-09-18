@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# 📄 Aniketh Gonepally – Resume Website
 
-## Project info
+This is my personal **resume website** showcasing my education, skills, projects, certifications, and experience.  
+It serves as an online portfolio to highlight my journey as a Computer Science and Engineering student.
 
-**URL**: https://lovable.dev/projects/34503f84-8d57-4857-8f7e-5cbc4de7a1d6
+---
 
-## How can I edit this code?
+## 🚀 Live Demo
+👉 [View Resume Website](https://your-github-username.github.io/your-repo-name/)  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📌 About Me
+- 🎓 **B.Tech in Computer Science and Engineering** – Geethanjali College of Engineering and Technology (2022–2026)  
+- 💻 Passionate about **Full Stack Development, AI/ML, and Problem Solving**  
+- 🛠️ Skilled in **Java, JavaScript, Python (Basics), React, Node.js, Express, MongoDB**  
+- ☁️ Familiar with **Cloud Computing (AWS)**  
+- 🤖 Hands-on with **TensorFlow, Machine Learning, and Deep Learning**  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/34503f84-8d57-4857-8f7e-5cbc4de7a1d6) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technologies Used
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Projects Highlighted
+- 🎯 **Object Detection and Classification** – Using TensorFlow for real-time recognition  
+- 🎵 **Spotify & Netflix Clone** – Full-stack application with frontend + backend integration  
+- 💧 **Water Management System** – IoT-based smart water bill distribution system  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📜 Certifications
+- Google AI-ML Virtual Internship – Edu-Skills (2024)  
+- Automation Engineer – ACCELQ (2024)  
+- AWS Cloud Practitioner – Amazon Web Services (2025)  
+- Full Stack Developer – Apna College (Pursuing)  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📬 Contact
+- 📧 Email: [anikethgonepally2005@gmail.com](mailto:anikethgonepally2005@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/aniketh-gonepally](https://www.linkedin.com/in/aniketh-gonepally/)  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/34503f84-8d57-4857-8f7e-5cbc4de7a1d6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📌 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-github-username/your-repo-name.git
