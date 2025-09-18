@@ -64,15 +64,15 @@ export const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
           <div className="bg-secondary-blue rounded-lg p-4 space-y-3">
             <div className="flex items-center space-x-3">
               <Phone className="h-4 w-4 text-primary-blue" />
-              <span className="text-sm text-secondary-blue-foreground">+1 (555) 123-4567</span>
+              <span className="text-sm text-secondary-blue-foreground">+91 6309305551</span>
             </div>
             <div className="flex items-center space-x-3">
               <Mail className="h-4 w-4 text-primary-blue" />
-              <span className="text-sm text-secondary-blue-foreground">hello@businesspro.com</span>
+              <span className="text-sm text-secondary-blue-foreground">anikethgonepally2005@gmail.com</span>
             </div>
             <div className="flex items-center space-x-3">
               <MapPin className="h-4 w-4 text-primary-blue" />
-              <span className="text-sm text-secondary-blue-foreground">123 Business St, New York, NY</span>
+              <span className="text-sm text-secondary-blue-foreground">Hyderabad, India</span>
             </div>
           </div>
 

@@ -14,48 +14,48 @@ const About = () => {
     {
       icon: Target,
       title: "Excellence",
-      description: "We strive for perfection in every project, delivering solutions that exceed expectations and set new standards."
+      description: "Striving for perfection in every line of code, delivering solutions that exceed expectations and industry standards."
     },
     {
       icon: Lightbulb,
       title: "Innovation",
-      description: "We embrace cutting-edge technologies and creative approaches to solve complex business challenges."
+      description: "Embracing cutting-edge technologies like AI/ML and cloud computing to solve complex technical challenges."
     },
     {
       icon: Heart,
-      title: "Integrity",
-      description: "We build trust through transparency, honest communication, and ethical business practices."
+      title: "Passion",
+      description: "Genuinely passionate about technology and committed to continuous learning in this rapidly evolving field."
     },
     {
       icon: Users,
       title: "Collaboration",
-      description: "We believe in the power of teamwork, both within our organization and with our valued clients."
+      description: "Believing in the power of teamwork and open communication to achieve remarkable results together."
     }
   ];
 
   const services = [
     {
-      title: "Business Consulting",
-      description: "Strategic guidance to optimize your operations and accelerate growth.",
-      features: ["Strategic Planning", "Process Optimization", "Market Analysis", "Growth Strategy"]
+      title: "Full-Stack Development",
+      description: "Complete web applications using modern frameworks and technologies.",
+      features: ["React & Node.js", "MongoDB Integration", "RESTful APIs", "Responsive Design"]
     },
     {
-      title: "Digital Solutions",
-      description: "Cutting-edge technology solutions tailored to your business needs.",
-      features: ["Web Development", "Mobile Apps", "Cloud Solutions", "Digital Transformation"]
+      title: "AI/ML Solutions",
+      description: "Intelligent systems powered by machine learning and deep learning.",
+      features: ["TensorFlow Projects", "Computer Vision", "Object Detection", "Data Analysis"]
     },
     {
-      title: "Marketing & Branding",
-      description: "Comprehensive marketing strategies to boost your brand presence.",
-      features: ["Brand Development", "Digital Marketing", "Content Strategy", "Social Media Management"]
+      title: "Cloud & IoT",
+      description: "Scalable cloud solutions and Internet of Things integrations.",
+      features: ["AWS Cloud Services", "Arduino Programming", "Sensor Integration", "Smart Automation"]
     }
   ];
 
   const stats = [
-    { number: "500+", label: "Projects Completed" },
-    { number: "98%", label: "Client Satisfaction" },
-    { number: "50+", label: "Team Members" },
-    { number: "10+", label: "Years Experience" }
+    { number: "15+", label: "Projects Completed" },
+    { number: "100%", label: "Client Satisfaction" },
+    { number: "5+", label: "Certifications" },
+    { number: "3+", label: "Years Learning" }
   ];
 
   return (
@@ -67,11 +67,11 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <h1 className="text-5xl md:text-6xl font-bold text-foreground animate-fade-in">
-              About BusinessPro
+              About Aniketh
             </h1>
             <p className="text-xl text-muted-foreground animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              We're a team of passionate professionals dedicated to transforming businesses 
-              through innovative solutions and exceptional service.
+              CS Engineering student and passionate developer specializing in full-stack development, 
+              AI/ML solutions, and cloud computing technologies.
             </p>
           </div>
         </div>
@@ -83,17 +83,17 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8 animate-slide-in">
               <h2 className="text-4xl md:text-5xl font-bold">
-                Our Story
+                My Journey
               </h2>
               <p className="text-lg text-muted-foreground">
-                Founded in 2013, BusinessPro emerged from a simple belief: every business deserves 
-                access to world-class solutions and expertise. What started as a small team of 
-                entrepreneurs has grown into a trusted partner for companies worldwide.
+                Currently pursuing B.Tech in Computer Science and Engineering at Geethanjali College 
+                of Engineering and Technology. My journey began with a perfect 10/10 GPA in high school 
+                and continued with 91% in intermediate studies, building a strong foundation in mathematics and science.
               </p>
               <p className="text-lg text-muted-foreground">
-                Today, we've helped over 500 businesses achieve their goals through our comprehensive 
-                suite of services. From startups to Fortune 500 companies, we bring the same level 
-                of dedication and expertise to every project.
+                Through hands-on projects and internships, including my Google AI-ML virtual internship at Edu-Skills, 
+                I've developed expertise in modern web technologies, artificial intelligence, and cloud computing. 
+                Each project has been a stepping stone toward mastering the art of creating impactful digital solutions.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 {stats.map((stat, index) => (
@@ -120,10 +120,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Our Core Values
+              Core Values
             </h2>
             <p className="text-xl text-muted-foreground">
-              These principles guide everything we do and shape how we serve our clients.
+              The principles that guide my approach to technology, problem-solving, and professional growth.
             </p>
           </div>
 
@@ -156,10 +156,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Our Services
+              Technical Skills
             </h2>
             <p className="text-xl text-muted-foreground">
-              Comprehensive solutions designed to address every aspect of your business needs.
+              Comprehensive expertise across modern development technologies and emerging AI/ML frameworks.
             </p>
           </div>
 
@@ -204,10 +204,11 @@ const About = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Ready to Work Together?
+              Let's Work Together
             </h2>
             <p className="text-xl text-gray-200">
-              Let's discuss how our expertise can help transform your business and achieve your goals.
+              Ready to bring your ideas to life? Let's discuss how my technical expertise 
+              can help you achieve your project goals.
             </p>
             <Button 
               size="lg"

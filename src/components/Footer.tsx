@@ -10,13 +10,13 @@ export const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary-blue rounded-lg flex items-center justify-center">
-                <span className="text-primary-blue-foreground font-bold text-lg">B</span>
+                <span className="text-primary-blue-foreground font-bold text-lg">A</span>
               </div>
-              <span className="text-xl font-bold">BusinessPro</span>
+              <span className="text-xl font-bold">Aniketh Tech</span>
             </div>
             <p className="text-primary-foreground/80 text-sm">
-              Transforming businesses with innovative solutions and exceptional service. 
-              Your success is our mission.
+              Full-stack developer and AI/ML engineer passionate about creating innovative 
+              solutions that bridge technology and real-world problems.
             </p>
             <div className="flex space-x-4">
               {[Facebook, Twitter, Linkedin, Instagram].map((Icon, index) => (
@@ -37,9 +37,9 @@ export const Footer = () => {
             <ul className="space-y-2">
               {[
                 { to: "/", label: "Home" },
-                { to: "/about", label: "About Us" },
+                { to: "/about", label: "About Me" },
                 { to: "/contact", label: "Contact" },
-                { to: "#", label: "Services" },
+                { to: "#", label: "Projects" },
               ].map((link) => (
                 <li key={link.to}>
                   <Link
@@ -58,10 +58,10 @@ export const Footer = () => {
             <h3 className="text-lg font-semibold">Services</h3>
             <ul className="space-y-2">
               {[
-                "Web Development",
-                "Digital Marketing",
-                "Business Consulting",
-                "Technical Support",
+                "Full-Stack Development",
+                "AI/ML Solutions",
+                "Cloud Computing",
+                "Mobile Applications",
               ].map((service) => (
                 <li key={service}>
                   <a
@@ -81,18 +81,18 @@ export const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary-blue" />
-                <span className="text-primary-foreground/80 text-sm">+1 (555) 123-4567</span>
+                <span className="text-primary-foreground/80 text-sm">+91 6309305551</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary-blue" />
-                <span className="text-primary-foreground/80 text-sm">hello@businesspro.com</span>
+                <span className="text-primary-foreground/80 text-sm">anikethgonepally2005@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-primary-blue" />
                 <span className="text-primary-foreground/80 text-sm">
-                  123 Business St, Suite 100
+                  Gokul Nagar, Tarnaka
                   <br />
-                  New York, NY 10001
+                  Hyderabad, India 500017
                 </span>
               </div>
             </div>
@@ -101,7 +101,7 @@ export const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm">
-            © {new Date().getFullYear()} BusinessPro. All rights reserved.
+            © {new Date().getFullYear()} Aniketh Tech. All rights reserved.
           </p>
         </div>
       </div>

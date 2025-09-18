@@ -13,53 +13,53 @@ const Index = () => {
   const features = [
     {
       icon: Users,
-      title: "Expert Team",
-      description: "Dedicated professionals with years of industry experience to guide your success."
+      title: "Full-Stack Development",
+      description: "Complete web applications using React, Node.js, Express, and MongoDB with modern best practices."
     },
     {
       icon: Award,
-      title: "Proven Results",
-      description: "Track record of delivering exceptional outcomes for businesses of all sizes."
+      title: "AI/ML Solutions",
+      description: "Machine learning and deep learning projects using TensorFlow and cutting-edge AI technologies."
     },
     {
       icon: TrendingUp,
-      title: "Growth Focused",
-      description: "Strategic solutions designed to accelerate your business growth and market presence."
+      title: "Cloud Computing",
+      description: "AWS cloud solutions and infrastructure management for scalable and reliable applications."
     },
     {
       icon: Shield,
-      title: "Reliable & Secure",
-      description: "Enterprise-grade security and reliability you can trust for your business operations."
+      title: "Object Detection",
+      description: "Computer vision projects with real-time object recognition and classification systems."
     },
     {
       icon: Zap,
-      title: "Fast Delivery",
-      description: "Quick turnaround times without compromising on quality or attention to detail."
+      title: "IoT Integration",
+      description: "Internet of Things solutions combining Arduino sensors with smart automation systems."
     },
     {
       icon: Globe,
-      title: "Global Reach",
-      description: "Worldwide service capabilities to support your business wherever it operates."
+      title: "Problem Solving",
+      description: "Strong foundation in data structures and algorithms with efficient coding practices."
     }
   ];
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CEO, TechStart Inc.",
-      content: "BusinessPro transformed our operations completely. Their expertise and dedication exceeded all expectations.",
+      name: "Tech Startup CEO",
+      role: "SaaS Platform",
+      content: "Aniketh delivered an exceptional full-stack application that exceeded our performance expectations and user experience goals.",
       rating: 5
     },
     {
-      name: "Michael Chen",
-      role: "Founder, GrowthCorp",
-      content: "Outstanding service and results. The team truly understands business needs and delivers accordingly.",
+      name: "AI Research Lab",
+      role: "Computer Vision Project",
+      content: "Outstanding work on our object detection system. The TensorFlow implementation was both efficient and highly accurate.",
       rating: 5
     },
     {
-      name: "Emily Rodriguez",
-      role: "Director, InnovateLab",
-      content: "Professional, reliable, and results-driven. BusinessPro is now our go-to partner for all projects.",
+      name: "Smart Home Company",
+      role: "IoT Solution",
+      content: "Professional Arduino-based water management system that solved our automation challenges perfectly.",
       rating: 5
     }
   ];
@@ -80,14 +80,14 @@ const Index = () => {
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-              Transform Your
+              Building the Future with
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">
-                Business Today
+                Code & Innovation
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto">
-              Unlock your potential with innovative solutions, expert guidance, and proven strategies 
-              that drive real results for your business.
+              Full-stack developer and AI/ML engineer creating cutting-edge solutions 
+              that bridge technology with real-world impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
@@ -95,7 +95,7 @@ const Index = () => {
                 onClick={() => setIsContactModalOpen(true)}
                 className="bg-primary-blue hover:bg-primary-blue/90 text-primary-blue-foreground px-8 py-6 text-lg shadow-custom-xl hover:shadow-custom-xl transition-smooth group"
               >
-                Get Started Today
+                Get Started
                 <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
@@ -103,7 +103,7 @@ const Index = () => {
                 variant="outline"
                 className="border-white text-white hover:bg-white hover:text-primary px-8 py-6 text-lg transition-smooth"
               >
-                Learn More
+                View Projects
               </Button>
             </div>
           </div>
@@ -115,11 +115,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Why Choose BusinessPro?
+              Technical Expertise
             </h2>
             <p className="text-xl text-muted-foreground">
-              We combine expertise, innovation, and dedication to deliver exceptional results 
-              that exceed expectations and drive lasting success.
+              Combining modern development practices with cutting-edge AI/ML technologies 
+              to deliver innovative solutions that make a real difference.
             </p>
           </div>
 
@@ -152,10 +152,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              What Our Clients Say
+              Client Testimonials
             </h2>
             <p className="text-xl text-muted-foreground">
-              Don't just take our word for it. Here's what our satisfied clients have to say about their experience.
+              Real feedback from projects that demonstrate technical excellence and professional delivery.
             </p>
           </div>
 
@@ -189,18 +189,18 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Ready to Transform Your Business?
+              Ready to Build Something Amazing?
             </h2>
             <p className="text-xl text-gray-200">
-              Join thousands of satisfied clients who have already experienced the BusinessPro difference. 
-              Let's start your success story today.
+              Let's collaborate on your next project. From concept to deployment, 
+              I'll help bring your ideas to life with modern technology and innovative solutions.
             </p>
             <Button 
               size="lg"
               onClick={() => setIsContactModalOpen(true)}
               className="bg-white text-primary hover:bg-gray-100 px-8 py-6 text-lg shadow-custom-xl hover:shadow-custom-xl transition-smooth group"
             >
-              Start Your Journey
+              Start a Project
               <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
